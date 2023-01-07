@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Work Sans;
+    font-family: 'work sans';
 
 }
 
@@ -44,7 +44,7 @@
     height: 55px;
     color: #005FAC;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 /* man section  */
@@ -169,4 +169,70 @@ font-size: 40px;
 width: 50%;
 margin-bottom: 24px;
 
+}
+/* footer design */
+.footer{
+    background: #151414;
+    color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+.left-div{
+width: 485px;
+padding-top: 130px;
+padding-right: 280px;
+padding-bottom: 130px;
+}
+.left-div h1{
+    font-weight: 700;
+font-size: 45px;
+font-family: 'work sans';
+}
+.foot-des{
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+margin-top: 16px;
+margin-bottom: 20px;
+}
+.left-div p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+margin-bottom: 12px;
+}
+.social-icon img{
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.right-div{
+    padding-top: 130px;
+}
+.right-div h1{
+    font-weight: 600;
+font-size: 26px;
+font-family: 'work sans';
+margin-bottom: 25px;
+}
+.right-div input{
+    width: 300px;
+height: 55px;
+border-radius: 6px;
+background-color: black;
+color: white;
+border: 1px solid rgba(255, 255, 255, 0.377);
+margin-bottom: 16px;
+}
+.right-div button{
+    height: 60px;
+    width: 150px;
+    border-radius: 8px;
+    background: #005FAC;
+    color: white;
 }
