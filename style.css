@@ -1,4 +1,172 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans;
+
+}
+
+.banner {
+    width: 1440px;
+    height: 808px;
+    background-image: url(./images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.banner-content {
+    position: absolute;
+    width: 430px;
+    left: 770px;
+    top: 240px;
+    right: 230px;
+    margin-right: 200px;
+    text-align: right;
+    color: white;
+
+}
+
+.banner-content h1 {
+    font-weight: 700;
+    font-size: 58px;
+    font-family: 'Work Sans';
+}
+
+.banner-content p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-bottom: 34px;
+}
+
+.primary-btn {
+    width: 140px;
+    height: 55px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* man section  */
+.man-section {
+    display: flex;
+    margin-top: 132px;
+    max-width: 1072px;
+    vertical-align: center;
+}
+
+.img-div img {
+    width: 440px;
+    margin-left: 206px;
+
+}
+
+.img-div {
+    width: 50%;
+}
+
+.man-content {
+    width: 50%;
+    margin-left: 180px;
+    margin-top: 130px;
+}
+
+.man-content h1 {
+    font-weight: 900;
+    font-size: 45px;
+    color: #151414;
+    font-family: 'work sans;
+
+}
+
+.man-content .para {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.check p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* plan section */
+.my-plan {
+    margin-top: 130px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.plan-title {
+    margin-bottom: 50px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-div .card {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.card h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    color: #151414;
+    margin-bottom: 12px;
+}
+
+.card img {
+    height: 92px;
+    width: 92px;
+    margin-bottom: 16px;
+}
+
+.card p {
+    color: #737272;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.call-section {
+  
+   height: 280px;
+   background-position: center;
+   background-size: cover;
+   background-image: url(./images/watch.png);
+   margin-right: 190px;
+   margin-left: 190px;
+   border-radius: 8px;
+
+}
+.call-content{
+    border-radius: 8px;
+    padding-top: 64px;
+    padding-left: 64px;
+    height: 220px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+}
+.call-content h1{
+    color: #FFFFFF;
+    font-weight: 700;
+font-size: 40px;
+width: 50%;
+margin-bottom: 24px;
+
 }
